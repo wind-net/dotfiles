@@ -1,0 +1,23 @@
+######################
+###   SSH-CONFIG   ###
+######################
+
+# GitHub
+Host github.com
+  User git
+  Port 22
+  IdentityFile ~/.ssh/public_ed25519
+
+# GitLab
+Host gitlab.com
+  User git
+  Port 22
+  IdentityFile ~/.ssh/public_ed25519
+
+######################
+
+
+######################
+
+Host *
+  IdentityFile ~/.ssh/id_yubikey
